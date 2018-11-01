@@ -1,2 +1,2 @@
 # python
-A collection of random python scripts for network automation
+A collection of random python scripts that might be useful for network automation
