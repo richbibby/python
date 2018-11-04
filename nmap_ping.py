@@ -5,7 +5,9 @@
 import subprocess
 
 # open the file called 'subnets' and read each line separately
-#t he subnets file should be in the same directory, and populated with the list of subnets to scan
+# the subnets file should be in the same directory, and populated with the list of subnets to scan
+# see subnets.example for file format
+
 with open('subnets') as f:
     subnets_to_scan = f.read().splitlines()
 
